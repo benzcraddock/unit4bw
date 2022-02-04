@@ -23,12 +23,9 @@ const user_class = [
 ]
 
 const class_type = [
-  { class_id: 1, type_id: 2 },
-  { class_id: 2, type_id: 1 },
-  { class_id: 3, type_id: 4 },
-  { class_id: 4, type_id: 3 },
-  { class_id: 5, type_id: 1 },
-  { class_id: 6, type_id: 3 },
+  { class_id: 1, type_id: 1 },
+  { class_id: 2, type_id: 2 },
+  { class_id: 3, type_id: 1 },
 ]
 
 exports.seed = async function(knex) {

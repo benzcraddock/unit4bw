@@ -50,7 +50,7 @@ router.get('/classes', restricted, (req, res, next) => {
   user_id = req.decodedJwt.user_id
   Class.getClassesByUser(user_id)
     .then(class => {
-        res.status(200).json(class)
+      res.status(200).json(class)
     })
     .catch(next)
 })

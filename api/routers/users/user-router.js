@@ -10,7 +10,7 @@ router.get('/', (req, res, next) => {
 })
 
 router.post('/', async (req, res) => {
-  res.status(201).json(await insertUser(req.body))
+  res.status(201).json(await User.insertUser(req.body))
 })
 
 
